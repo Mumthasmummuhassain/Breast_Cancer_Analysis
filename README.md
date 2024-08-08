@@ -1,12 +1,14 @@
 # Breast_Cancer_Analysis
 Breast Cancer Data Analysis
-##Project Overview
+
+## Project Overview
+
 This project focuses on analyzing breast cancer data using machine learning techniques to build predictive models and visualize insights. The key objectives include data cleaning, feature selection, model building, and creating an interactive application for users.
 
-Data Description
+## Data Description
 The dataset used in this project contains breast cancer data, with various features related to the diagnosis and characteristics of the tumors.
 
-Setup Instructions
+## Setup Instructions
 Prerequisites:
 
 Python 3.7 or higher
@@ -22,13 +24,14 @@ seaborn
 Install the required libraries:
 
 pip install pandas numpy scikit-learn tensorflow streamlit matplotlib seaborn
-Code Description
-Python Scripts:
 
-data_preparation.py: Handles data cleaning and preprocessing.
+## Code Description
+## Python Scripts:
+
+data_preprocessing.py: Handles data cleaning and preprocessing.
 feature_selection.py: Selects important features for the model.
 ann_model.py: Builds and trains an artificial neural network model.
-model_tuning.py: Tunes model parameters for better performance.
+model_building.py: Tunes model parameters for better performance.
 Streamlit App:
 
 app.py: A Streamlit application to visualize data insights and interact with the predictive model.
